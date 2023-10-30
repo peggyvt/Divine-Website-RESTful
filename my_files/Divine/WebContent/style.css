@@ -1,0 +1,306 @@
+body {
+    background-color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-decoration: none;
+    color: #674335;
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 300;
+    font-size: 250%;
+    padding-left: 10%;
+    margin-top: 0;
+}
+
+h2 {
+    text-decoration: none;
+    color: #674335;
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 300;
+    font-size: 200%;
+    padding-left: 24%;
+}
+
+nav a, footer {
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 100;
+}
+
+nav a:hover {
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+}
+
+a.active {
+    font-weight: 300;
+}
+
+#nav-our-service {
+    position: relative;
+}
+
+.extras-our-service {
+    position: absolute;
+    z-index: 2;
+    background: #ad873a;
+    left: 5px;
+    width: 250px;
+    height: 45px;
+    padding-left: 5px;
+    display: none;
+}
+
+#nav-our-service:hover .extras-our-service {    
+    display: block;
+    position: absolute;
+    top: 22px;
+    text-align: left;
+}
+
+hr {
+    border: none;
+    margin: 0;
+    border-top: 0.5px solid white;
+    width: 94%;
+}
+
+.extras {
+    padding-top: 20px;
+    padding-right: 150px;
+}
+
+.extras>button {
+    cursor: pointer;
+}
+
+.search-bar {
+    border: 2px solid #4b8178;
+    border-radius: 10px;
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 300;
+    transition: 0.5s;
+    outline: none;
+}
+.search-bar:focus {
+    border: 2px solid #674335;
+}
+
+.search-button {
+    color: #4b8178;
+    background: none;
+    border: none;
+}
+
+#products {
+    /*height: 600px;*/
+    width: 60%;
+    color: white;
+    background-color: #402e32;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    text-decoration: none;
+    font-size: 100%;
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 100;
+}
+
+.candle-names {
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 300;
+    color: white;
+}
+
+.candle-price {
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 100;
+    color: white;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 5px;
+    text-align: center;
+    background-color: #ad873a;
+}
+
+#demo {
+    margin: 50px;
+    margin-top: 5px;
+}
+
+.carousel-item img {
+    width: auto;
+}
+
+.carousel-control-prev-icon {
+    color: black;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ad873a' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ad873a' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.myCont1 {
+    background-color: #402e32;
+}
+nav {
+    background-color: #ad873a;
+    width: 80%;
+}
+
+.modal-title {
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 300;
+    color: #674335;
+}
+
+.close {
+    color: #4b8178; 
+    opacity: 1;
+}
+
+label {
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 300;
+    color: #674335; 
+}
+
+.sign-in-btn, .sign-up-btn, .sign-out-btn, .update-user-details-btn {
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 300;
+    color: #000; 
+    margin: 25px;
+}
+
+.sign-up-button {
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 300;
+    color: #674335; 
+    text-decoration: underline;
+}
+
+.sign-up-button:hover {
+    text-decoration: none;
+    color: #674335; 
+}
+
+.Sign-In-Form {
+    text-align: center;
+}
+
+.Sign-Up-Form {
+    text-align: center;
+}
+
+.Sign-Out-Form {
+    text-align: center;
+}
+
+input {
+    border: 1px solid #4b8178;
+    border-radius: 5px;
+}
+
+.first_name-label, .email-label-1 {
+    padding-top: 20px;
+}
+
+.surname-label, .email-label-2, .password-label-1, .password-label-2, .confirm_password-label {
+    padding-top: 10px;
+}
+
+.new-here {
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 300;
+    color: #000; 
+}
+
+#first_name, #surname, #email, #password, #confirm_password {
+    border: 1px solid #4b8178;
+    border-radius: 5px;
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 300;
+    transition: 0.5s;
+    outline: none;
+}
+#first_name:focus, #surname:focus, #email:focus, #password:focus, #confirm_password:focus {
+    border: 1px solid #674335;
+}
+.checkout {
+    text-align: center;
+}
+
+.print_message {
+	font-family: 'Noto Serif Display', serif;
+    font-weight: 300;
+    color: red;
+}
+
+#user_status {
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 300;
+    color: #4b8178;
+}
+
+.delete-product-from-cart {
+    float: right;
+    margin-right: 20px;
+}
+
+.item {
+    clear: both;
+}
+
+.products-info {
+    padding: 10px;
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 300;
+    font-size: 125%;
+    text-align: left;
+}
+
+.Cart-Form {
+    text-align: center;
+}
+
+.checkout-btn {
+	margin: 20px;
+}
+
+.delete-product-from-cart {
+    float: right;
+    margin-right: 20px;
+}
+
+#img {
+    padding: 10px;
+    float: left;
+    align: left !important;
+}
+
+.item {
+    clear: both;
+}
+
+.Cart-Form {
+    text-align: center;
+}
+
+.products-info {
+    padding: 10px;
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 300;
+    font-size: 125%;
+    text-align: left;
+}
